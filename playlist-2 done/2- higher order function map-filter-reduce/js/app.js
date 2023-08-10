@@ -28,3 +28,14 @@ let sum = numbers.reduce(function (accumulator, item) {
 });
 
 console.log(sum);
+
+// manual reduce example
+
+console.log(sum (numbers))
+function sum (arr){
+    let num = 0;
+    for(let i =0; i< arr.length ; i++){
+        num += arr[i]
+    }
+    return num;
+}
